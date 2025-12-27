@@ -23,8 +23,6 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
-import Admin from "./dashboards/admin";
-import SuperAdmin from "./dashboards/super_admin";
 import Teacher from "./dashboards/teacher";
 import Student from "./dashboards/student";
 import Parent from "./dashboards/parent";
@@ -62,8 +60,8 @@ export default function App() {
           }
         >
           <Route index element={<Home />} />
-          <Route path="dashboard/admin" element={<Admin />} />
-          <Route path="dashboard/super_admin" element={<SuperAdmin />} />
+          <Route path="dashboard/admin" element={<Home />} /> // asosiy sahifa
+          <Route path="dashboard/super_admin" element={<Home />} /> // asosiy sahifa
           <Route path="dashboard/teacher" element={<Teacher />} />
           <Route path="dashboard/student" element={<Student />} />
           <Route path="dashboard/parent" element={<Parent />} />

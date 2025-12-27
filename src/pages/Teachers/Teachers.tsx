@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PlusIcon, PencilIcon, TrashBinIcon, UserIcon } from "../../icons";
+import { PencilIcon, TrashBinIcon, UserIcon } from "../../icons";
 import {
   Table,
   Modal,
