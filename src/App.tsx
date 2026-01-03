@@ -60,8 +60,8 @@ export default function App() {
           }
         >
           <Route index element={<Home />} />
-          <Route path="dashboard/admin" element={<Home />} /> // asosiy sahifa
-          <Route path="dashboard/super_admin" element={<Home />} /> // asosiy sahifa
+          <Route path="dashboard/admin" element={<Home />} />
+          <Route path="dashboard/super_admin" element={<Home />} />
           <Route path="dashboard/teacher" element={<Teacher />} />
           <Route path="dashboard/student" element={<Student />} />
           <Route path="dashboard/parent" element={<Parent />} />
